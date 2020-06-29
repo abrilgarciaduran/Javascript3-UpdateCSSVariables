@@ -1,0 +1,39 @@
+:root {
+  --base: #f1bfd8;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+body {
+  text-align: center;
+  background: #9b5085;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  width: 300px;
+  height: 300px;
+}
+
+h1 {
+  margin: 30px 0px;
+  font-size: 3rem;
+}
+
+.h1span {
+  color: var(--base);
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
